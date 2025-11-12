@@ -44,7 +44,6 @@ export EDITOR="nvim"
 export VISUAL="nvim"
 
 ## alias
-alias ra="yazi"
-alias lg="lazygit"
-alias nv="nvim"
-alias cr="clear"
+for pair in "ra:yazi" "nv:nvim" "lg:lazygit" "cr:clear"; do
+    alias "${pair%:*}"="${pair#*:}"
+done

@@ -12,3 +12,6 @@ opt.smartindent = true
 
 -- Clipboard
 opt.clipboard = "unnamedplus"
+
+-- Disable Mouse
+opt.mouse = ""

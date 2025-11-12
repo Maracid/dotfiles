@@ -1,7 +1,6 @@
 --- @diagnostic disable: undefined-global
 -- Define a list of language servers to enable
 local lsps = {
-    "lua_ls",
     "rust_analyzer",
     "gopls",
 }
