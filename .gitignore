@@ -1,0 +1,38 @@
+# WHITE LIST
+# ALL DISABLE
+*
+# .gitignore
+!.gitignore
+
+# zsh
+!.zshrc
+!.zimrc
+!.fzf.zsh
+
+# config
+!.config/
+
+!.config/nvim/
+!.config/nvim/**
+
+!.config/kitty/
+!.config/kitty/**
+
+!.config/mpv/
+!.config/mpv/**
+
+!.config/jrnl/
+!.config/jrnl/**
+
+!.config/mpd/
+!.config/mpd/**
+
+# other
+## aria2c
+!.aria2/
+!.aria2/aria2.conf
+
+## mpd & rmpc
+!.mpd/
+!.mpd/playlists/
+!.mpd/playlists/.gitkeep
