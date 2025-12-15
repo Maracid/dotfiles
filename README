@@ -1,3 +1,7 @@
 ln -s ~/dotfiles/nvim ~/.config/nvim
 ln -s ~/dotfiles/kitty ~/.config/kitty
 ln -s ~/dotfiles/.zshrc ~/.zshrc
+
+# linux
+ln -s ~/dotfiles/linux/kitty.liunx ~/.config/kitty/kitty.conf
+ln -s ~/dotfiles/linux/zsh/zshrc.linux ~/.zshrc

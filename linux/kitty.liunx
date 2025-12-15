@@ -1,0 +1,56 @@
+enable_audio_bell           no
+confirm_close               no
+confirm_os_window_close     0
+enable_gpu                  yes
+
+# decorations
+window_border_width         0
+window_padding_width        15
+hide_window_decorations     titlebar-only
+background_opacity          0.85
+background_blur             30
+
+# font
+font_size                   12
+font_family                 JetBrains Mono
+enable_ligatures            yes
+
+# cursor
+cursor_trail                3
+cursor_shape                beam
+cursor_blink                yes
+cursor_blink_interval       0.5
+cursor                      #F0F0FF
+cursor_text_color           #2E3047
+
+# color
+
+# Black
+color0                      #24273A
+color8                      #5F658E
+# Red
+color1                      #E0A9A9
+color9                      #F0BABA
+# Green
+color2                      #9ABF9A
+color10                     #AFCFA0
+# Yellow
+color3                      #E6C8A0
+color11                     #F2DCAA
+# Blue
+color4                      #828EC8
+color12                     #9CA8E0
+# Magenta
+color5                      #B49FCA
+color13                     #D2BBF0
+# Cyan
+color6                      #89C0D3
+color14                     #A7D8E8
+# White
+color7                      #BAC2DE
+color15                     #F0F0FF
+
+# layout
+active_border_color         #666666
+inactive_border_color       #666666
+window_border_width         1
