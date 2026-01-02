@@ -6,3 +6,4 @@ ln -s ~/dotfiles/.zshrc ~/.zshrc
 ln -s ~/dotfiles/linux/kitty.liunx ~/.config/kitty/kitty.conf
 ln -s ~/dotfiles/linux/zsh/zshrc.linux ~/.zshrc
 ln -s ~/dotfiles/linux/aria2.linux ~/.aria2/aria.conf
+ln -s ~/dotfiles/linux/hypr ~/.config/hypr
