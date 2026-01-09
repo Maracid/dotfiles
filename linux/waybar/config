@@ -1,0 +1,19 @@
+{
+  "include": "~/.config/waybar/modules",
+  "layer": "top",
+  "position": "top",
+  "fixed-center": true,
+  "margin-bottom": 0,
+
+  "modules-left": [
+    "clock",
+    "hyprland/workspaces",
+    "tray"
+  ],
+  
+  "modules-right": [
+    "network",
+    "battery",
+    "wireplumber"
+  ],
+}

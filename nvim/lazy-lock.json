@@ -1,11 +1,11 @@
 {
   "flash.nvim": { "branch": "main", "commit": "fcea7ff883235d9024dc41e638f164a450c14ca2" },
-  "fzf-lua": { "branch": "main", "commit": "ab0d0135746c564ca31cd2c8a84c170802be6d16" },
-  "indentmini.nvim": { "branch": "main", "commit": "a2eb2dcfbe5cc631d9ab12f021d54601877e3656" },
+  "fzf-lua": { "branch": "main", "commit": "a03d68e40eea835a1cdbd9f93049708dab3621e6" },
+  "indentmini.nvim": { "branch": "main", "commit": "38572ce5a7a064a5deb89d6d861b7c40fc929ab1" },
   "lazy.nvim": { "branch": "main", "commit": "306a05526ada86a7b30af95c5cc81ffba93fef97" },
   "lualine.nvim": { "branch": "master", "commit": "47f91c416daef12db467145e16bed5bbfe00add8" },
   "markdown-preview.nvim": { "branch": "master", "commit": "a923f5fc5ba36a3b17e289dc35dc17f66d0548ee" },
-  "mason.nvim": { "branch": "main", "commit": "57e5a8addb8c71fb063ee4acda466c7cf6ad2800" },
+  "mason.nvim": { "branch": "main", "commit": "44d1e90e1f66e077268191e3ee9d2ac97cc18e65" },
   "mini.icons": { "branch": "main", "commit": "efc85e42262cd0c9e1fdbf806c25cb0be6de115c" },
   "nvim-treesitter": { "branch": "master", "commit": "42fc28ba918343ebfd5565147a42a26580579482" },
   "rainbow-delimiters.nvim": { "branch": "master", "commit": "8aafe2cbd89cd4090f573a98cab6b20366576fde" }

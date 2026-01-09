@@ -1,0 +1,66 @@
+{
+ "tray": {
+    "icon-size": 16,
+    "spacing": 8,
+  },
+
+  "clock": {
+    "format": " {:%H:%M} ",
+    "interval": 60,
+    "tooltip": true,
+    "tooltip-format": "{:%d %B %H:%M}"
+},
+  
+  "wireplumber": {
+    "format": "{icon} {volume} %",
+    "format-muted": " Mute",
+    "format-icons": ["", "", ""],
+    "on-click": "pavucontrol",
+    "max-volume": 100,
+    "scroll-step": 5
+},
+
+  "hyprland/workspaces": {
+    "format": "{icon}",
+    "separate-outputs": false,
+    "active-only": false,
+    "all-outputs": false,
+    "format-icons": {
+      "1": "1",
+      "2": "2",
+      "3": "3",
+      "4": "4",
+      "5": "5",
+      "6": "6",
+      "7": "7",
+      "8": "8",
+      "9": "9",
+      "10": "10",
+      }
+},
+
+  "network": {
+    "interval": 3,
+	"format": "󰤨",
+	"format-ethernet": "󰈀",
+	"format-wifi": "{icon}",
+	"format-disconnected": "󰤯",
+	"format-disabled": "󰤮",
+	"format-icons": ["󰤟", "󰤢", "󰤥", "󰤨"],
+},
+
+  "battery": {
+    "format": "{icon} {capacity}%",
+	"format-icons": ["󰂎", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+	"format-charging": "󰉁 {capacity}%",
+},
+
+  "custom/cava": {
+    "exec": "~/.config/waybar/cava.sh",
+    "return-type": "json",
+    "format": "{}",
+    "interval": 0.1,
+    "on-click": "wpctl set-mute @DEFAULT_SINK@ toggle"
+},
+
+}
