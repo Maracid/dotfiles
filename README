@@ -1,6 +1,7 @@
+# macos
 ln -s ~/dotfiles/nvim ~/.config/nvim
 ln -s ~/dotfiles/kitty ~/.config/kitty
-ln -s ~/dotfiles/.zshrc ~/.zshrc
+ln -s ~/dotfiles/macos/aria2 ~/.aria2
 
 # linux
 ln -s ~/dotfiles/linux/kitty.liunx ~/.config/kitty/kitty.conf
