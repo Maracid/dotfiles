@@ -40,6 +40,6 @@ ZSH_AUTOSUGGEST_MANUAL_REBIND=1
 source ~/.fzf.zsh
 
 ## alias
-for pair in "ra:yazi" "nv:nvim" "lg:lazygit" "cr:clear" "freboot:sudo reboot" "deepsleep:sudo loginctl hibernate"; do
+for pair in "ra:yazi" "nv:nvim" "lg:lazygit" "cr:clear" "freboot:sudo reboot" "deepsleep:sudo loginctl hibernate" "zathura --fork:za"; do
     alias "${pair%:*}"="${pair#*:}"
 done
