@@ -39,10 +39,6 @@ ZSH_AUTOSUGGEST_MANUAL_REBIND=1
 # fzf-tab
 source ~/.fzf.zsh
 
-## editor
-export EDITOR="nvim"
-export VISUAL="nvim"
-
 ## alias
 for pair in "ra:yazi" "nv:nvim" "lg:lazygit" "cr:clear" "freboot:sudo reboot" "deepsleep:sudo loginctl hibernate"; do
     alias "${pair%:*}"="${pair#*:}"
