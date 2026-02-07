@@ -7,8 +7,11 @@ require("config.keymaps")
 -- plugins
 require("config.lazy")
 
---lsp
+-- lsp
 require("config.lsp")
+
+-- spellcheck
+require("config.spellcheck")
 
 -- Transparency
 vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
